@@ -1,4 +1,4 @@
-# D3
+# D4
 
 Continuo dell'esercizio del D2. L'esercizio prevede l'aggiunta di un campo author, evidenziare delle parole specifiche usando una directive custom, trasformare del testo in maiuscolo usando una pipe, e la creazione di una pagina users e una pagina details.
 

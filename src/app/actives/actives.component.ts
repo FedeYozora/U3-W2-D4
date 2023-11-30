@@ -18,7 +18,7 @@ export class ActivesComponent implements OnInit {
   }
 
   onInactivePost(id: number, i: number) {
-    this.postSrv.updatePost({ active: true }, id);
+    this.postSrv.updatePost({ active: false }, id);
     this.posts.splice(i, 1);
   }
 }
