@@ -1,0 +1,7 @@
+<div *ngIf="post | async as item">
+  <h2>{{ post.title }}</h2>
+  <p>{{ post.body }}</p>
+  <p><strong>Type:</strong> {{ post.type }}</p>
+  <p><strong>ID:</strong> {{ post.id }}</p>
+  <a class="btn btn-primary" routerLink="/">Torna alla Home</a>
+</div>
